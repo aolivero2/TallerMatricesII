@@ -237,6 +237,11 @@ public class PrincipalII extends javax.swing.JFrame {
           txtNumeroColumnas.setText("");
           txtNumeroFilas.requestFocusInWindow(); 
           
+        } else if (nf>=15 && nc>=15){
+          Helper.mensaje(this, "Digite un numero menor que 15 para obtener una mejor figura",3);
+          txtNumeroFilas.setText("");
+          txtNumeroColumnas.setText("");
+          txtNumeroFilas.requestFocusInWindow();
         }else{
          tm = (DefaultTableModel) tblTablaInicial.getModel();
          tm2 = (DefaultTableModel) tblTablaResultado.getModel();

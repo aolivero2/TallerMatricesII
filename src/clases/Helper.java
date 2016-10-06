@@ -231,7 +231,7 @@ if (i==0||(i==1 && j!=nc-1 && j!=0)||(i==2 && j!=nc-2 && j!=nc-1 && j!=1 && j!=0
         for (int i = 0; i < nf; i++) {
             for (int j = 0; j < nc; j++) {
            aux = (int) tabla1.getValueAt(i, j);
-           if (nf/2-i==j||i-j==nf/2||(nf-i+nf/2-1==j)){
+           if (nf/2-i==j||i-j==nf/2||(nf-i+nf/2-1==j)||i==j-nf/2){
             tabla2.setValueAt(aux, i, j);    
                 }
             }
