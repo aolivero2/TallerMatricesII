@@ -183,9 +183,9 @@ public class PrincipalII extends javax.swing.JFrame {
 
         jPanel1.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 250, 440, 290));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1070, 560));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1070, 580));
 
-        setSize(new java.awt.Dimension(1099, 602));
+        setSize(new java.awt.Dimension(1099, 618));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
@@ -361,7 +361,7 @@ public class PrincipalII extends javax.swing.JFrame {
       switch (op){
             case 0:
               Helper.LetraB (tblTablaInicial, tblTablaResultado);
-                break;
+               break;
             case 1:
              Helper.LetraK(tblTablaInicial, tblTablaResultado);
                 break;
@@ -384,8 +384,8 @@ public class PrincipalII extends javax.swing.JFrame {
             Helper.LetraR(tblTablaInicial, tblTablaResultado);   
                break; 
             case 8:
-            Helper.PrimeraFigura(tblTablaInicial, tblTablaResultado);   
-               break;   
+            Helper.PrimeraFigura(tblTablaInicial, tblTablaResultado); 
+             break;   
            case 9:
             Helper.SegundaFigura(tblTablaInicial, tblTablaResultado);   
                break;
